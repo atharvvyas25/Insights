@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV-Insights</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- favicon -->
+    <link rel="icon" href="img/Insight fav1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/05d576e922.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <header class="header">
+            <a href="#" class="logo"><img src="img/in-logo.png" style="width: 119px;"></a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#" class="btn btn-transparent">Sign Up</a>
+                <a href="#" class="btn btn-filled">Sign In</a>
+
+                <a href="" class="edit"><img src="img/writer.png" alt="" style="width: 30px; color: #6b3e26; "></a>
+            </nav>
+
+        </header>
+        <div class="nav-bg">
+            <div class="nav-bg-content">
+                <!-- <a href="" class="edit1"><img src="img/document.png" alt="" style="width: 22px; color: #6b3e26;"></a> -->
+            </div>
+        </div>
+
+        <div class="short-navbar-container">
+            <nav class="short-navbar">
+                <ul>
+                    <li class="nav-item active"><a href="#" id="home-link">Home</a></li>
+                    <li class="nav-item"><a href="#" id="posts-link">Posts</a></li>
+                    <li class="nav-item"><a href="#" id="search-link"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </nav>
+            <div class="search-bar-container" style="display: none;">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <button onclick="hideSearchBar()">Close</button>
+            </div>
+        </div>
+        
+
+
+        <div class="main">
+            <div class="main-content">
+                <section class="section1 show-animate">
+                    <div class="paras" data-aos="fade-left">
+                        <!-- <p class="sectionTag text-big1">Create a blog.</p> -->
+                        <div class="container">
+                            <svg viewBox="0 0 960 300">
+                                <symbol id="s-text">
+                                    <text text-anchor="middle" x="50%" y="80%">Create a blog.</text>
+                                </symbol>
+
+                                <g class="g-ants">
+                                    <use xlink:href="#s-text" class="text-copy"></use>
+                                    <use xlink:href="#s-text" class="text-copy"></use>
+                                    <use xlink:href="#s-text" class="text-copy"></use>
+                                    <use xlink:href="#s-text" class="text-copy"></use>
+                                    <use xlink:href="#s-text" class="text-copy"></use>
+                                </g>
+                            </svg>
+                        </div>
+                        <!-- <div class="words">
+                            <span>travel blog</span>
+                            <span>fashion blog</span>
+                            <span>food blog</span>
+                            <span>education blog</span>
+                            <span>history blog</span>
+                        </div> -->
+                        <p class="sectionSubTag text-small1"> Share your story with the world. Create a beautiful,
+                            personalized blog that fits your brand. <br> Grow your audience with built-in marketing
+                            tools,<br> or
+                            transform your passion into revenue by gating access with a paywall. </p>
+                    </div>
+                    <div class="thumbnail" data-aos="fade-right">
+                        <img height="250%" width="100%" src="img/main.png" alt="balloons" class="imgFluid">
+                    </div>
+                </section>
+            </div>
+
+
+        </div>
+
+        <div class="container1">
+            <div class="topic-heading">
+                <h1>Top trending</h1>
+                <p>Check out the most popular blogs on the platform</p>
+            </div>
+            <div class="topic-main">
+                <div class="card">
+                    <img src="img/travel.jpg" alt="Travel Image">
+                    <div class="card-content"><a href="test.html">
+                            <h2>Travel</h2>
+                            <p>Discover new places and adventure through travel. Explore the world and enjoy the
+                                journey.
+                            </p>
+                            <div class="card-footer">
+                                <img src="img/Insight fav1.png" alt="Admin Profile Picture">
+                                <div class="admin-info">
+                                    <span class="name">Admin Name</span>
+                                    <span class="date">Posted on: 2023-07-10</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/fashion.jpg" alt="Fashion Image">
+                    <div class="card-content">
+                        <a href="">
+                            <h2>Fashion</h2>
+                            <p>Stay updated with the latest fashion trends and tips. Elevate your style and be
+                                confident.
+                            </p>
+                            <div class="card-footer">
+                                <img src="img/Insight fav1.png" alt="Admin Profile Picture">
+                                <div class="admin-info">
+                                    <span class="name">Admin Name</span>
+                                    <span class="date">Posted on: 2023-07-10</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/food.jpg" alt="Food Image">
+                    <div class="card-content">
+                        <a href="">
+                            <h2>Food</h2>
+                            <p>Explore delicious recipes and food tips. Enjoy the flavors and create culinary
+                                masterpieces.
+                            </p>
+                            <div class="card-footer">
+                                <img src="img/Insight fav1.png" alt="Admin Profile Picture">
+                                <div class="admin-info">
+                                    <span class="name">Admin Name</span>
+                                    <span class="date">Posted on: 2023-07-10</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer"> <a class="fancy" href="#">
+                        <span class="top-key"></span>
+                        <span class="text">see more...</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a></div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="left-section">
+                <h2 class="post">Posts....</h2>
+                <div class="post-card">
+                    <div class="post-img"> <img src="img/fashion.jpg" alt=""></div>
+                    <div class="post-content">
+                        <h3> <a href="">Who What Wear </a></h3>
+                        <p> <a href=""><strong>Who What Wear.</strong> Covers the latest and greatest celebrity style,
+                                runway trends, and shopping
+                                suggestions from the fashion and beauty experts.</a> </p>
+                        <div class="post-footer">
+                            <div class="post-info">
+                                <span class="date">Posted on: 2023-07-10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-img"> <img src="img/fashion.jpg" alt=""></div>
+                    <div class="post-content">
+                        <h3> <a href="">Who What Wear </a></h3>
+                        <p> <a href=""><strong>Who What Wear.</strong> Covers the latest and greatest celebrity style,
+                                runway trends, and shopping
+                                suggestions from the fashion and beauty experts.</a> </p>
+                        <div class="post-footer">
+                            <div class="post-info">
+                                <span class="date">Posted on: 2023-07-10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-img"> <img src="img/fashion.jpg" alt=""></div>
+                    <div class="post-content">
+                        <h3> <a href="">Who What Wear </a></h3>
+                        <p> <a href=""><strong>Who What Wear.</strong> Covers the latest and greatest celebrity style,
+                                runway trends, and shopping
+                                suggestions from the fashion and beauty experts.</a> </p>
+                        <div class="post-footer">
+                            <div class="post-info">
+                                <span class="date">Posted on: 2023-07-10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-img"> <img src="img/fashion.jpg" alt=""></div>
+                    <div class="post-content">
+                        <h3> <a href="">Who What Wear </a></h3>
+                        <p> <a href=""><strong>Who What Wear.</strong> Covers the latest and greatest celebrity style,
+                                runway trends, and shopping
+                                suggestions from the fashion and beauty experts.</a> </p>
+                        <div class="post-footer">
+                            <div class="post-info">
+                                <span class="date">Posted on: 2023-07-10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-img"> <img src="img/fashion.jpg" alt=""></div>
+                    <div class="post-content">
+                        <h3> <a href="">Who What Wear </a></h3>
+                        <p> <a href=""><strong>Who What Wear.</strong> Covers the latest and greatest celebrity style,
+                                runway trends, and shopping
+                                suggestions from the fashion and beauty experts.</a> </p>
+                        <div class="post-footer">
+                            <div class="post-info">
+                                <span class="date">Posted on: 2023-07-10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <h2>Categories...</h2>
+                <div class="category-section">
+                    <ul>
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/food.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Food</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"> <a href="#">
+                                <img src="img/fashion (1).jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Fashion
+                                </span></a>
+                        </li>
+
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/travel.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Travel</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/food.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Food</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"> <a href="#">
+                                <img src="img/fashion (1).jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Fashion
+                                </span></a>
+                        </li>
+
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/travel.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Travel</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/food.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Food</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"> <a href="#">
+                                <img src="img/fashion (1).jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Fashion
+                                </span></a>
+                        </li>
+
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/travel.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Travel</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/food.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Food</span></a>
+                        </li>
+                        <li class="category-item" style="list-style: none;"> <a href="#">
+                                <img src="img/fashion (1).jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Fashion
+                                </span></a>
+                        </li>
+
+                        <li class="category-item" style="list-style: none;"><a href="#">
+                                <img src="img/travel.jpg" alt="Category Image" class="category-image">
+                                <span class="category-name">Travel</span></a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
